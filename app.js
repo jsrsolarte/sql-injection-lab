@@ -6,8 +6,8 @@ const logger = require("morgan");
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 
-// Change this constant to 'mysql' if you want to work with MySQL database
-const db = "oracle";
+// Change this constant to 'oracle' if you want to work with MySQL database
+const db = "mysql";
 
 let app = express();
 
